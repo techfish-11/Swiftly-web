@@ -2,9 +2,9 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { FaDiscord, FaGithub, FaServer, FaLock, FaTools, FaRobot, FaVoteYea, FaShieldAlt, FaClock } from 'react-icons/fa';
+import { FaDiscord, FaGithub, FaServer, FaTools, FaRobot, FaVoteYea, FaShieldAlt, FaClock } from 'react-icons/fa';
 import { MdOutlineTranslate } from 'react-icons/md'; // 修正箇所
-import { AiOutlineInteraction, AiOutlineSetting } from 'react-icons/ai';
+import { AiOutlineInteraction } from 'react-icons/ai';
 import { BiAnalyse } from 'react-icons/bi';
 import { Header } from '@/components/layout/Header';
 import {
@@ -351,11 +351,11 @@ const ServerBoardSection = () => (
               <div className="grid grid-cols-2 gap-3">
                 <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
                   <p className="text-sm text-gray-400">サーバー名</p>
-                  <p className="font-medium">Swiftly Community</p>
+                  <p className="font-medium">TechFish_Lab | Community</p>
                 </div>
                 <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
-                  <p className="text-sm text-gray-400">メンバー数</p>
-                  <p className="font-medium">1,234</p>
+                  <p className="text-sm text-gray-400">up</p>
+                  <p className="font-medium">まだupされていません</p>
                 </div>
               </div>
             </div>
