@@ -408,10 +408,10 @@ const Footer = () => (
             次世代のDiscord Bot体験を提供します。
           </p>
           <div className="flex space-x-4">
-            <a href="https://discord.gg/your-server" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://discord.gg/mNDvAYayp5" target="_blank" className="text-gray-400 hover:text-white transition-colors">
               <FaDiscord className="text-2xl" />
             </a>
-            <a href="https://github.com/your-repo" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/evex-dev/Swiftly-bot" target="_blank" className="text-gray-400 hover:text-white transition-colors">
               <FaGithub className="text-2xl" />
             </a>
           </div>
